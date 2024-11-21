@@ -1,0 +1,54 @@
+*{
+    color-scheme: unset;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style for body in juxy chat app */
+body{
+    background: #f1d9c4a8;
+}
+/* style for paragraphp and description */
+.paragraph{
+    padding-left: 45%;
+    color: tomato;
+}
+.description{
+    color: palevioletred;
+}
+/* style of links */
+.links{
+    padding-left: 40%;
+}
+.links a{
+    color: blue;
+    text-decoration: none;
+}
+.links a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* @keyframes style */
+h1{
+    overflow: hidden;
+    white-space: normal;
+    border: 0px solid;
+    animation: write 1s steps(150,end);
+}
+@keyframes write{
+    from{
+        width:0px;
+    }
+    to{
+        width:100px;
+    }
+}
+/* style of footer */
+footer{
+    padding-left: 45%;
+    margin-top: 24.2%;
+    background-color: black;
+    color: white;
+    height: 20%;
+}
+
